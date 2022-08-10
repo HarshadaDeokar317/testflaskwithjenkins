@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'http://gsgit.gslab.com/dipti_bagal/Jenkins.git'
+        git 'https://github.com/HarshadaDeokar317/testflaskwithjenkins.git'
       }
     }
     stage('Building image') {
